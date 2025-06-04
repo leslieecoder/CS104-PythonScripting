@@ -1,17 +1,95 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <title>Canvas Form</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta charset="UTF-8">
+  <title>CS 104: Python Scripting</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #fff;
+      color: #333;
+    }
+    header {
+      background: linear-gradient(to right, #007fc5, #001845);
+      color: white;
+      padding: 2em;
+      text-align: center;
+    }
+    .section {
+      padding: 2em;
+      max-width: 900px;
+      margin: auto;
+    }
+    h2.section-title {
+      background: #008cdd;
+      color: white;
+      padding: 0.5em 1em;
+      border-radius: 5px;
+      margin-top: 2em;
+    }
+    .step {
+      margin: 2em 0;
+    }
+    img {
+      max-width: 100%;
+      height: auto;
+    }
+    .robot {
+      width: 80px;
+      float: right;
+    }
+    .screenshot {
+      margin: 1em 0;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
+  </style>
 </head>
 <body>
-  <h1>Reflection Form</h1>
-  <form>
-    <label for="name">Name:</label>
-    <input type="text" id="name" name="name"><br><br>
-    <label for="reflection">Reflection:</label><br>
-    <textarea id="reflection" name="reflection" rows="6" cols="40"></textarea><br><br>
-    <input type="submit" value="Submit">
-  </form>
+
+  <header>
+    <h1>CS 104: Python Scripting</h1>
+    <p>Welcome to Python Scripting with Ensign College</p>
+    <img src="robot-byte.png" alt="Byte the Robot" class="robot">
+  </header>
+
+  <section class="section">
+    <h2 class="section-title">Overview</h2>
+    <p>
+      There are numerous programming languages in use today. In this course, you will be introduced to <strong>Python</strong>...
+    </p>
+    <img src="ide-overview.png" alt="IDE and Code Diagram" class="screenshot">
+  </section>
+
+  <section class="section">
+    <h2 class="section-title">Step 1: Create a GitHub Account</h2>
+    <p>
+      To complete this assignment, you will need to set up your <strong>own personal GitHub account</strong>...
+    </p>
+    <p style="color: red;"><strong>Note:</strong> Please do not use a school or work email address.</p>
+  </section>
+
+  <section class="section">
+    <h2 class="section-title">Step 2: Accept the Assignment Through GitHub</h2>
+    <div class="step">
+      <p><strong>1.</strong> Click <span style="color: green;">Authorize GitHub Classroom</span>.</p>
+      <img src="step1-authorize.png" alt="Authorize GitHub" class="screenshot">
+    </div>
+    <div class="step">
+      <p><strong>2.</strong> Click <span style="color: green;">Accept this Assignment</span>.</p>
+      <img src="step2-accept.png" alt="Accept Assignment" class="screenshot">
+    </div>
+    <div class="step">
+      <p><strong>3.</strong> Click <span style="color: green;">Open in GitHub Codespaces</span>.</p>
+      <img src="step3-open.png" alt="Open Codespaces" class="screenshot">
+    </div>
+    <div class="step">
+      <p><strong>4.</strong> Let the IDE load. This may take a minute.</p>
+      <img src="step4-ide.png" alt="IDE Screenshot" class="screenshot">
+    </div>
+  </section>
+
 </body>
 </html>
